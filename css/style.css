@@ -311,7 +311,9 @@ nav {
     flex-direction: column;
     gap: 35px;
 }
-
+.last{
+    background-color: #D9D9D9 ;
+}
 .cardHebergement {
     padding: 5px 5px 15px 5px;
     display: flex;
@@ -333,7 +335,6 @@ nav {
 
 
 .cardHebergement img {
-
     border-radius: 20px 20px 0px 0px;
     height: 124px;
     width: 100%;
@@ -344,4 +345,69 @@ nav {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+}
+
+#affi{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.hebergements {
+    width: 65%;
+    padding: 30px;
+}
+#cards3{
+    display: flex;
+    Height: 1,280px;
+    gap: 30px;
+    margin: 40px;
+
+}
+.ActMarseille > h2{
+    margin-top: 40px;
+}
+.imag1{
+    width:  297.5px;
+    height: 439px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+
+}
+
+.imag1 img {
+    width: 100%;
+    height: 380px ;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.imag1 p{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+}
+footer{
+    width: 1340px;
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.foot{
+    Width: 446.67px;
+    Padding: 20px;
+    Gap: 15px;
+    
+}
+.foot > h3{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.foot > p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
 }
